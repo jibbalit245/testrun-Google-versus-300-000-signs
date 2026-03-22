@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# HuggingFace model cache
+.cache/
+*.bin
+*.safetensors
+*.gguf
+
+# Training artifacts
+checkpoints/
+outputs/
+runs/
+wandb/
+
+# Data files
+data/raw/
+data/*.jsonl
+eval_results.json
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db

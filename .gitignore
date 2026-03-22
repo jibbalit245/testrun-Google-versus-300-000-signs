@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Training artifacts
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+
+# Data (source docs and generated JSONL — not committed, too large)
+data/sources/
+data/*.jsonl
+
+# Evaluation results (generated at runtime)
+eval_results.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

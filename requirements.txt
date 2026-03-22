@@ -1,0 +1,32 @@
+# Core deep learning
+torch>=2.3.0
+torchvision>=0.18.0
+
+# Hugging Face ecosystem
+transformers>=4.43.0
+accelerate>=0.31.0
+peft>=0.11.0
+trl>=0.9.4
+datasets>=2.20.0
+tokenizers>=0.19.0
+
+# Quantization (QLoRA 4-bit NF4)
+bitsandbytes>=0.43.0
+
+# Model / tokenizer utilities
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+einops>=0.8.0
+
+# Numerics
+scipy>=1.13.0
+numpy>=1.26.0
+
+# API clients for OBSERVE/PROBE generation
+openai>=1.30.0
+anthropic>=0.28.0
+
+# Logging & utilities
+tqdm>=4.66.0
+rich>=13.7.0
+pyyaml>=6.0.1
